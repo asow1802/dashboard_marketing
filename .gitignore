@@ -1,0 +1,5 @@
+.metadata/
+bin/
+target/
+node_modules/
+Example Workflows/
