@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="15"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="id"/>
+        <entry key="column_name" type="xstring" value="Id_demande"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -28,7 +28,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="address_state"/>
+        <entry key="column_name" type="xstring" value="Etat"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -344,7 +344,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="grade"/>
+        <entry key="column_name" type="xstring" value="Note_risque"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -402,7 +402,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="home_ownership"/>
+        <entry key="column_name" type="xstring" value="Statut_immobilier"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -448,7 +448,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_4">
-        <entry key="column_name" type="xstring" value="loan_status"/>
+        <entry key="column_name" type="xstring" value="Statut_du_pret"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -482,7 +482,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_5">
-        <entry key="column_name" type="xstring" value="member_id"/>
+        <entry key="column_name" type="xstring" value="Id_emprunteur"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -507,7 +507,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_6">
-        <entry key="column_name" type="xstring" value="purpose"/>
+        <entry key="column_name" type="xstring" value="Objectif_du_pret"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -607,7 +607,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_7">
-        <entry key="column_name" type="xstring" value="term"/>
+        <entry key="column_name" type="xstring" value="Durée_du_pret"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -635,7 +635,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_8">
-        <entry key="column_name" type="xstring" value="annual_income"/>
+        <entry key="column_name" type="xstring" value="Revenu_annuel"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -660,7 +660,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_9">
-        <entry key="column_name" type="xstring" value="dti"/>
+        <entry key="column_name" type="xstring" value="Ratio_dette"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -685,7 +685,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_10">
-        <entry key="column_name" type="xstring" value="installment"/>
+        <entry key="column_name" type="xstring" value="Montant_de_la_mensualité"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -710,7 +710,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_11">
-        <entry key="column_name" type="xstring" value="int_rate"/>
+        <entry key="column_name" type="xstring" value="Taux_interet"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -735,7 +735,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_12">
-        <entry key="column_name" type="xstring" value="loan_amount"/>
+        <entry key="column_name" type="xstring" value="Montant du pret"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -760,7 +760,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_13">
-        <entry key="column_name" type="xstring" value="total_acc"/>
+        <entry key="column_name" type="xstring" value="Nbr_comptes"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -785,7 +785,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_14">
-        <entry key="column_name" type="xstring" value="total_payment"/>
+        <entry key="column_name" type="xstring" value="Montant_remboursé"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

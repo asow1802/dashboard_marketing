@@ -9,7 +9,7 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="13"/>
+                <entry key="array-size" type="xint" value="15"/>
                 <entry key="0" type="xstring" value="id"/>
                 <entry key="1" type="xstring" value="address_state"/>
                 <entry key="2" type="xstring" value="grade"/>
@@ -18,14 +18,16 @@
                 <entry key="5" type="xstring" value="member_id"/>
                 <entry key="6" type="xstring" value="purpose"/>
                 <entry key="7" type="xstring" value="term"/>
-                <entry key="8" type="xstring" value="installment"/>
-                <entry key="9" type="xstring" value="int_rate"/>
-                <entry key="10" type="xstring" value="loan_amount"/>
-                <entry key="11" type="xstring" value="total_acc"/>
-                <entry key="12" type="xstring" value="total_payment"/>
+                <entry key="8" type="xstring" value="annual_income"/>
+                <entry key="9" type="xstring" value="dti"/>
+                <entry key="10" type="xstring" value="installment"/>
+                <entry key="11" type="xstring" value="int_rate"/>
+                <entry key="12" type="xstring" value="loan_amount"/>
+                <entry key="13" type="xstring" value="total_acc"/>
+                <entry key="14" type="xstring" value="total_payment"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="11"/>
+                <entry key="array-size" type="xint" value="9"/>
                 <entry key="0" type="xstring" value="application_type"/>
                 <entry key="1" type="xstring" value="emp_length"/>
                 <entry key="2" type="xstring" value="emp_title"/>
@@ -35,8 +37,6 @@
                 <entry key="6" type="xstring" value="next_payment_date"/>
                 <entry key="7" type="xstring" value="sub_grade"/>
                 <entry key="8" type="xstring" value="verification_status"/>
-                <entry key="9" type="xstring" value="annual_income"/>
-                <entry key="10" type="xstring" value="dti"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -72,12 +72,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 38576, Cols: 13"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38576, Cols: 15"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9e279333-eaa4-49ed-9dae-734b9e6d0e76"/>
+        <entry key="file_store_id" type="xstring" value="0a34f236-5f00-4444-8892-26b4524de6a3"/>
     </config>
 </config>

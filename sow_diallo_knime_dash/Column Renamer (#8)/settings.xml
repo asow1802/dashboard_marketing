@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="renamings">
+            <config key="0">
+                <entry key="oldName" type="xstring" value="id"/>
+                <entry key="newName" type="xstring" value="Id_demande"/>
+            </config>
+            <config key="1">
+                <entry key="oldName" type="xstring" value="grade"/>
+                <entry key="newName" type="xstring" value="Note_risque"/>
+            </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="home_ownership"/>
+                <entry key="newName" type="xstring" value="Statut_immobilier"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="total_payment"/>
+                <entry key="newName" type="xstring" value="Montant_remboursé"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="total_acc"/>
+                <entry key="newName" type="xstring" value="Nbr_comptes"/>
+            </config>
+            <config key="5">
+                <entry key="oldName" type="xstring" value="loan_amount"/>
+                <entry key="newName" type="xstring" value="Montant du pret"/>
+            </config>
+            <config key="6">
+                <entry key="oldName" type="xstring" value="int_rate"/>
+                <entry key="newName" type="xstring" value="Taux_interet"/>
+            </config>
+            <config key="7">
+                <entry key="oldName" type="xstring" value="installment"/>
+                <entry key="newName" type="xstring" value="Montant_de_la_mensualité"/>
+            </config>
+            <config key="8">
+                <entry key="oldName" type="xstring" value="dti"/>
+                <entry key="newName" type="xstring" value="Ratio_dette"/>
+            </config>
+            <config key="9">
+                <entry key="oldName" type="xstring" value="annual_income"/>
+                <entry key="newName" type="xstring" value="Revenu_annuel"/>
+            </config>
+            <config key="10">
+                <entry key="oldName" type="xstring" value="term"/>
+                <entry key="newName" type="xstring" value="Durée_du_pret"/>
+            </config>
+            <config key="11">
+                <entry key="oldName" type="xstring" value="purpose"/>
+                <entry key="newName" type="xstring" value="Objectif_du_pret"/>
+            </config>
+            <config key="12">
+                <entry key="oldName" type="xstring" value="member_id"/>
+                <entry key="newName" type="xstring" value="Id_emprunteur"/>
+            </config>
+            <config key="13">
+                <entry key="oldName" type="xstring" value="loan_status"/>
+                <entry key="newName" type="xstring" value="Statut_du_pret"/>
+            </config>
+            <config key="14">
+                <entry key="oldName" type="xstring" value="address_state"/>
+                <entry key="newName" type="xstring" value="Etat"/>
+            </config>
+        </config>
+        <entry key="doNotAllowPaddedColumnName_Internals" type="xboolean" value="true"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Renamer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.9.0.v202511140634"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.9.0.v202511140634"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Renamer"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 38576, Cols: 15"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="21275e9d-5e75-4e9c-ae3b-11f0f3b3c920"/>
+    </config>
+</config>
